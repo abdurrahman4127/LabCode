@@ -21,7 +21,7 @@ class Postgraduate extends Degree{
 }
 
 //driver class
-public class Question_1 {
+public class Graduation {
     public static void main(String[] args)
     {
         Degree degree = new Degree();

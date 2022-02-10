@@ -12,8 +12,7 @@ public class Horse implements Animal{
     }
 
     //self method
-    public void sleeping()
-    {
+    public void sleeping() {
         System.out.println("Sleeping!");
     }
 }

@@ -9,12 +9,11 @@ public class ExceptionExample {
 
         try{
             res = a/b; // possible doubtful code that can throw Exception
-
         }
+
         catch(Exception e){
             // handle the exception
             System.out.println("Exception Found " + e);
-
         }
 
         System.out.println("Result is "+ res);

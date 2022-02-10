@@ -34,13 +34,13 @@ public class FileCode {
 //            System.out.println(num);
             bw.write("sum of total numbers : " + num); //writes within the file
 
-
             //must be closed
             br.close();
             bw.close();
         }
+
         catch (Exception e){
-            //
+            e.getMessage();
         }
     }
 }

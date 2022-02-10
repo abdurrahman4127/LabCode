@@ -11,8 +11,7 @@ public class FileIO {
             FileWriter writer = new FileWriter("C:\\Users\\MC\\LabCode\\src\\labFinal\\Q_01\\Written.txt",true);
 
             int txt;
-            while ((txt = reader.read()) != -1)
-            {
+            while ((txt = reader.read()) != -1) {
                 writer.write(txt);
             }
 

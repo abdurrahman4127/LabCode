@@ -13,8 +13,7 @@ public class ExceptionDivision {
         }
     }
 
-    static int division(int a, int b) throws Exception
-    {
+    static int division(int a, int b) throws Exception {
         return a / b;
     }
 }

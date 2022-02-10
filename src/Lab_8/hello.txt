@@ -1,1 +1,1 @@
-this is simple text
+This is simple text.

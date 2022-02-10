@@ -1,2 +1,0 @@
-This is a second text file.
-This is a new Line.

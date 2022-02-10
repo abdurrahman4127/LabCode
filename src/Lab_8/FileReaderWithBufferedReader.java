@@ -1,21 +1,21 @@
-package Lab_8.FromClass;
+package Lab_8;
 
 import java.io.*;
 
 public class FileReaderWithBufferedReader {
     public static void main(String[] args)
     {
-        try(BufferedReader bfrd = new BufferedReader(new FileReader("C:\\Users\\MC\\LabCode\\src\\Lab_8\\FromClass\\hello3.txt")))
+        try(BufferedReader bfrd = new BufferedReader(new FileReader("C:\\Users\\USER\\LabCode\\src\\Lab_8\\hello3.txt")))
         {
             String line;
-            while ((line = bfrd.readLine()) != null)
-            {
+
+            while ((line = bfrd.readLine()) != null) {
                 System.out.println(line);
             }
             bfrd.close();
         }
-        catch (Exception e)
-        {
+
+        catch (Exception e) {
             System.out.println("Error in File Reader " + e);
         }
     }

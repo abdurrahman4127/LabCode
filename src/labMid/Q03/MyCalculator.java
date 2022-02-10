@@ -1,7 +1,6 @@
 package labMid.Q03;
 
-public class MyCalculator implements AdvancedArithmetic
-{
+public class MyCalculator implements AdvancedArithmetic {
     int sumOfDivs = 0;
 
     @Override

@@ -6,8 +6,7 @@ public abstract class Vehicle {
     public float speed;
 
     // regular method
-    public void increaseSpeed(float speed)
-    {
+    public void increaseSpeed(float speed) {
         this.speed += speed;
     }
 

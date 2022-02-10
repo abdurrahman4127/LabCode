@@ -14,7 +14,7 @@ public class BillPayment {
      list.add("man 4");
      list.add("man 5");
 
-     System.out.println("\n before poling : " + list);
+     System.out.println("before poling : " + list);
 
      // peeking
      System.out.println("First one in he line : " + list.peek() + "\n");

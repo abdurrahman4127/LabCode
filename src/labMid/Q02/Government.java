@@ -6,9 +6,9 @@ class Employees{
     private double salary;
 
     public void aboutMe() {
-        System.out.println("name :" + this.name);
-        System.out.println("age :" + this.age);
-        System.out.println("office :" + this.office);
+        System.out.println("name : " + this.name);
+        System.out.println("age : " + this.age);
+        System.out.println("office : " + this.office);
     }
 
     public void setSalary(double salary) {
@@ -28,7 +28,7 @@ public class Government {
         Employees a = new Employees();
         a.name = "AR";
         a.age = 20;
-        a.office = "nowhere";
+        a.office = "Bangladesh Bekar Association";  // bekar = unemployed
 
         a.aboutMe();
         a.setSalary(5000); // initially 5K salary

@@ -1,7 +1,6 @@
 package Lab_5.LabManual_2;
 
-class Application
-{
+class Application {
     String address;
     int numOfBooks;
 

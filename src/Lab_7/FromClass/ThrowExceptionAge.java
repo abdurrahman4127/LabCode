@@ -2,15 +2,14 @@ package Lab_7.FromClass;
 
 import java.util.Scanner;
 
-public class ThrowExample {
+public class ThrowExceptionAge {
     public static void main(String[] args)
     {
         System.out.println("Enter your age: ");
         Scanner sc = new Scanner(System.in);
         int age = sc.nextInt();
 
-        try
-        {
+        try {
             if (age < 18) {
                 throw new NumberFormatException();
             }
@@ -21,6 +20,5 @@ public class ThrowExample {
         catch (Exception e) {
             System.out.println(("You are under aged."));
         }
-
     }
 }

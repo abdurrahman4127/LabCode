@@ -20,8 +20,7 @@ public class ExceptionAge {
         }
     }
 
-    static void entry(int age) throws Exception
-    {
+    static void entry(int age) throws Exception {
         if(age < 18)
             throw new Exception("no entry");
         else

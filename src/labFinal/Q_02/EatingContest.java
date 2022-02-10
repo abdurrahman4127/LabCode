@@ -1,8 +1,7 @@
 package labFinal.Q_02;
 
 // implementing the interface
-class Player implements Runnable
-{
+class Player implements Runnable {
     Thread eater; // t - reference
 
     //constructor
@@ -17,8 +16,7 @@ class Player implements Runnable
     public void run() {
         System.out.println(eater.getName() + " has started eating");
 
-        for (int i=0; i<3; i++)
-        {
+        for (int i=0; i<3; i++) {
             System.out.println(eater.getName() + " has finished " + i + " burgers");
             System.out.println(eater.getName() + "  has finished eating");
         }

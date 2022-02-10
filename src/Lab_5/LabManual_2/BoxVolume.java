@@ -1,17 +1,14 @@
 package Lab_5.LabManual_2;
 
-class Box
-{
+class Box {
     double length, width, height;
 
-    double getVolume(double l, double w, double h)
-    {
+    double getVolume(double l, double w, double h) {
         return (l * w * h);
     }
 }
 
-public class BoxVolume
-{
+public class BoxVolume {
     public static void main(String[] args)
     {
         Box box1 = new Box();

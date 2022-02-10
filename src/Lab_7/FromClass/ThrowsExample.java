@@ -8,8 +8,8 @@ public class ThrowsExample {
         try{
             output = divide(3,0);
         }
-        catch(Exception e)
-        {
+
+        catch(Exception e) {
             System.out.println("Exception Found! " + e);
         }
 
@@ -17,8 +17,7 @@ public class ThrowsExample {
     }
 
     //this method might/can return an exception
-    public static int divide(int a, int b) throws ArithmeticException
-    {
+    public static int divide(int a, int b) throws ArithmeticException {
         return (a / b);
     }
 }
