@@ -2,7 +2,7 @@ package PracticeCode.HomePractice_ClassObj;
 
 /*   Create a class named 'Student' with String variable 'name', integer variable 'roll_no',
      String variable ‘phone’ number and ‘address’.
-          a. Create two objects of the Student Class.
+         a. Create two objects of the Student Class.
          b. Assign and print the roll number, phone number and address of two students
  */
 
@@ -21,8 +21,8 @@ class Student {
 public class StudentsInfo {
     public static void main(String[] args)
     {
-        Student ar = new Student("Abdur Rahman","016**19**0*...", "Bangladesh", 7);
+        Student ar = new Student("L Lawliet","********...", "Unknown", 7);
         System.out.println();
-        Student tn = new Student("Thao Nhi","+849844*2***...", "Vietnam", 3);
+        Student tn = new Student("Spike Speigel","*******...", "Universe", 10);
     }
 }
